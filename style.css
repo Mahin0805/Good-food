@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --btncolor: rgb(82, 195, 3);
+}
+.hero {
+    background-image: linear-gradient(360.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0)100%), url(image/hero-bg.png);
+    height: 919px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    /* height: 38px; */
+    margin-bottom: 16px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 1000px;
+    /* height: 160px; */
+    margin-bottom: 24px;
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 1023px;
+    /* height: 56px; */
+    margin-bottom: 32px;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: var(--btncolor);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
