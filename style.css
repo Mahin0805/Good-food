@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --btncolor: rgb(82, 195, 3);
+    --seccolor: rgba(82, 195, 3, 0.15);
 }
+
 .hero {
     background-image: linear-gradient(360.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0)100%), url(image/hero-bg.png);
     height: 919px;
@@ -73,4 +76,92 @@ h1 {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.container {
+    height: 746px;
+    width: 1320px;
+    margin: 150px auto;
+}
+
+.container>p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+
+.container>h2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 54px;
+}
+
+.card>h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+    /* width: 279px; */
+    height: 49px;
+}
+
+.card>p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    height: 56px;
+
+}
+
+.card img {
+    width: 424px;
+    height: 283px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.card :nth-child(2) {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.card-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: var(--seccolor);
+    margin-bottom: 24px;
 }
